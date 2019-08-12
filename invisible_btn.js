@@ -1,3 +1,4 @@
+console.log('aaa');
 // はてなユーザーじゃなければ非表示
 function none_for_guest(){
     var elems = document.getElementsByClassName('none_for_guest');
@@ -37,3 +38,4 @@ function onload() {
     }
 }
 window.addEventListener('load', onload, false);
+console.log('bbb');
